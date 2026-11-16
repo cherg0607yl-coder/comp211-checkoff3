@@ -1,10 +1,12 @@
-# How Python Libraries Are Implemented in C
+# COMP 211 Checkoff 3 - How Python Libraries Are Implemented in C
 
 ## Overview
 
 Python is one of the most widely used programming languages in machine learning, despite being relatively slow at executing certain operations compared to compiled languages like C.
 
 This project explores how Python interacts with C, how libraries like NumPy leverage compiled code, and why this architecture makes Python so powerful for scientific computing.
+
+Link to my presentation slides: [COMP 211 Checkoff 3 Presentation Slides](https://docs.google.com/presentation/d/1UqhsyJJ6wQdAbIPiwqbyez8vOPOAcKrAJqUBvn4Kx6s/edit?usp=sharing)
 
 ## What I Explored
 
@@ -72,11 +74,8 @@ python performance.py
 - NumPy's performance comes from both efficient memory representation and compiled numerical operations.
 - High-level programming languages can combine ease of use with the performance of lower-level implementations.
 
-**My biggest takeaway:** Python's power isn't just in what it does, but in what it connects to.
-
 ## Additional Resources
 
-- [COMP 211 Checkoff 3 Presentation Slides](https://docs.google.com/presentation/d/1UqhsyJJ6wQdAbIPiwqbyez8vOPOAcKrAJqUBvn4Kx6s/edit?usp=sharing)
 - [Python ctypes Documentation](https://docs.python.org/3/library/ctypes.html)
 - [Python/C API Reference](https://docs.python.org/3/c-api/index.html)
 - [NumPy Documentation](https://numpy.org/doc/stable/)
